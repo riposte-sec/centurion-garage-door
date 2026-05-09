@@ -1,0 +1,26 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Centurion Garage Door",
+        "description": "Enter the details for your Centurion Garage Door controller.",
+        "data": {
+          "host": "IP Address / Hostname",
+          "api_key": "API Key"
+        },
+        "data_description": {
+          "host": "The IP address or hostname of the controller (e.g. 192.168.1.100)",
+          "api_key": "The API key shown in the controller's web interface"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Failed to connect to the device. Check the IP address and ensure the device is online.",
+      "invalid_auth": "Invalid API key.",
+      "unknown": "Unexpected error occurred."
+    },
+    "abort": {
+      "already_configured": "This device is already configured."
+    }
+  }
+}

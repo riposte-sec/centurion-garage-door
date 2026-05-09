@@ -1,0 +1,12 @@
+{
+  "domain": "centurion_garage_door",
+  "name": "Centurion Garage Door",
+  "codeowners": ["@riposte-sec"],
+  "config_flow": true,
+  "documentation": "https://github.com/riposte-sec/centurion-garage-door",
+  "issue_tracker": "https://github.com/riposte-sec/centurion-garage-door/issues",
+  "integration_type": "device",
+  "iot_class": "local_polling",
+  "requirements": [],
+  "version": "1.0.0"
+}
